@@ -1,8 +1,8 @@
 Description:
-    Explain the generator
+    This will copy the required javascript file to the Rails application ("public/javascripts/simply_load.js" or "app/assets/javascripts/simply_load.js")
 
 Example:
-    rails generate install Thing
+    rails generate simply_load
 
     This will create:
-        what/will/it/create
+        public/javascripts/simply_load.js or app/assets/javascripts/simply_load.js
