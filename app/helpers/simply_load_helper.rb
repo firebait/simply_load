@@ -1,4 +1,4 @@
-Module SimplyLoadHelper
+Module ApplicationHelper
 
   def simply_load(url, content, options={})
     options[:class] = "#{options[:class]} simply_load".strip
