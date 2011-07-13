@@ -1,0 +1,26 @@
+Simply load is really just a short way to write a JQuery load method to populate a page.
+
+Why did I make a gem out of this little thing? I just thought it was fun to load pieces of html at random or have a little form widget without having to actually instantiate the object on a completely unrelated controller method.
+Anyway, hope you guys like it and sure there is always room for improvement.
+
+Installing:
+
+Add this to you Gemfile:
+
+    gem 'simply_load'  
+
+The run:
+
+    bundle install  
+
+As simply_load uses some javascript files, you will require to install them for use:
+
+    rails g simply_load  
+
+Using:
+
+On any of your views just use this code:
+
+    <%= simply_load url_to_load, "Loading content if no block is provided",  {other options} %>  
+
+Hope you like it!!
