@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Firebait"]
   s.email       = ["marcotapiag@gmail.com"]
   s.homepage    = "http://firebait.com"
-  s.summary     = %q{simply_load adds a view helper method that simplyfies the loading of content via ajax. Very useful when you need to create a complex view with multiple instances of objects and models. }
+  s.summary     = %q{simply_load adds a view helper method that simplyfies the loading of content via ajax. Very useful when you need to create a complex view with multiple instances of objects and models.}
   s.description = %q{}
 
   s.rubyforge_project = "simply_load"
