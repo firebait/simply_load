@@ -13,7 +13,7 @@ The run:
 
     bundle install  
 
-As simply_load uses some javascript files, you will require to install them for use:
+As simply_load uses a javascript files, you will be required to install it for use (also remember to include it with javascript_include_tag):
 
     rails g simply_load  
 
