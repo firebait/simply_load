@@ -23,4 +23,12 @@ On any of your views just use this code:
 
     <%= simply_load url_to_load, "Loading content if no block is provided",  {other options} %>  
 
+Callbacks:
+
+In order to react to a load success event, you will need to listen to the "simply_load:success" event like this:
+
+$("#simply_load_object").live("simply_load:success", function(){
+	alert("Finished Loading")
+}
+
 Hope you like it!!
