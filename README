@@ -31,4 +31,16 @@ $("#simply_load_object").live("simply_load:success", function(){
 	alert("Finished Loading")
 }
 
+Periodically Load:
+
+You can also reload an element periodically using a function call:
+
+simply_load_every_x_y 
+
+where x is the amount and y is the time unit. 
+
+examples: 
+
+simply_load_every_15_seconds or simply_load_every_1_minute or simply_load_every_3_hours
+
 Hope you like it!!
